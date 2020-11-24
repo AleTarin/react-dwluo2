@@ -26,5 +26,5 @@ export function chunkArray(array, sizes = []) {
   if (array.length <= size) {
     return [array];
   }
-  return [array.slice(0, size), ...chunkArray(array.slice(size), size)];
+  return [array.slice(0, size), ...chunkArray(array.slice(size), sizes)];
 }

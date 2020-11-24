@@ -1,21 +1,3 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
-
-h1,
-p {
+h1, p {
   font-family: Lato;
-}
-
-/* figure > div {
-  margin: 0 16px;
-} */
-figure:first-child > div {
-  margin-left: 0;
-}
-figure:last-child > div {
-  margin-right: 0;
-}
-.services-item {
-  background-position: center;
-  background-size: cover;
-  border-radius: 50%;
 }
